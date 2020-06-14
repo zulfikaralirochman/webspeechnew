@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Immigration Office">
+    <meta name="author" content="Zulfikar Ali R">
+      <title> Money Changer Situation </title>
+      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+    
+  <body> 
+        
+		<nav class="navbar navbar-expand-md navbar-light">
+            <img style="color: white" src="/views/immi.jpg" alt=" logo" />
+    <a href="#" class="navbar-brand">Brand</a>
+            
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" style="background-color: white">
+        <span class="navbar-toggler-icon" style="background-color: white"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active" style="color: white">Home</a>
+            <a href="#" class="nav-item nav-link" style="color: white">Profile</a>
+            <a href="#" class="nav-item nav-link" style="color: white">Messages</a>
+            <a href="#" class="nav-item nav-link disabled" tabindex="-1"></a>
+        </div>
+        <div class="navbar-nav ml-auto">
+            <a href="#" class="nav-item nav-link">Login</a>
+        </div>
+    </div>
+</nav>
+      
+      <div class="container">
+   <div class="row">
+       
+      <div class="col-lg-12">  
+          
+    <section class="sectionone">
+    
+    <center>
+      <h3 class="judul"> Scene 1 : Immigration Office </h3>
+        
+        </center>
+        <div class="row grid-row"><br></div>
+        <div class="col-12">
+        
+            <center>
+            <img src="sceneone.png" class="gambarscene">
+            </center>
+        </div>
+        <div class="row grid-row">
+            <div class="col-4"></div>
+            
+            
+            <div class="col-12">
+             <div class="text-output">
+          <p>You said: <em class="output-you">...</em></p>
+          <p>Receptionist replied: <em class="output-bot">...</em></p>
+                </div>
+             </div>
+        
+        </div>
+          </section>
+           </div>
+           </div>
+          </div>
+          
+          <center>
+         
+             <a href="#" id="buttonshow" class="buttonshow">Hint</a>
+             
+            <button id="buttonrecord" class="buttonrecord"><i class="fa fa-microphone"></i></button> 
+             
+        
+        </center>  
+          
+      
+          <div class="bg-modal">
+        <div class="modal-content">    
+        <a href="#" id="buttonhint" class="buttonhint"> Hint </a>
+                <p></p>
+                <div class="hintcontent">
+                <p> 1. Say Hi to Teller</p>
+                <p> 2. Ask about change your money </p>
+                <p> 3. Say how much your money</p>
+                 <p> 4. Take your money and say thanks</p>
+                </div>
+            <div class="close">+</div>
+        </div> 
+        </div>
+         
+      
+       <script>
+document.querySelector('.close').addEventListener('click', 
+function() {
+    document.querySelector('.bg-modal').style.display = 'none';
+});
+           document.getElementById('buttonshow').addEventListener('click', 
+function() {
+    document.querySelector('.bg-modal').style.display = 'flex';
+});
+       </script> 
+    </body>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/script.js"></script>
+    <script src="jquery-3.3.1.js"></script>
+        <script src="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+      
+    
+      
+        
+  
+</html>
