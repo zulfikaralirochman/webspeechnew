@@ -1,0 +1,368 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html {
+  height: 100%;
+    width: 100%;
+}
+
+body {
+  padding-top:  0;
+  margin: 0;
+  font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 10%;
+  background: white url() center 22% no-repeat;
+  background-size: 22em;
+  color: #333;
+}
+
+.navbar-light {
+    background-color: #194f6b;
+    float: none;
+}
+
+/*=======================================hp=================================================*/
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 699px) {
+    
+    body {
+        width: 100%;
+    }
+    
+    .buttonrecord {
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 80px;
+  height: 80px;
+  border: 0;
+  border-radius: 50%;
+  padding: .7em 1em;
+  margin: 0em auto 1em 40%;
+  margin-top: 1em;
+  text-align: center;
+  color: #fff;
+  background: #194f6b;
+  box-shadow: 2px 5px 30px rgba(100, 100, 201, .4);
+
+  
+  transition: all 0.3s ease-out;
+}
+.buttonrecord .fa {
+  font-size: 55px;
+  line-height: 70px;
+  margin: 0;
+  text-shadow: 1px 2px 2px #194f6b;
+}
+.buttonrecord:hover {
+  transform: scale(.92);
+}
+.buttonrecord:active {
+  filter: brightness(.8);
+}
+.buttonrecord:focus {
+  outline: 0;
+}
+    
+    .text-output {
+    border: 1px solid white;
+    background-color: rgba(10, 10, 10, 0.05);
+    border-radius: 10%;
+    padding: 2% 0% 2% 2%;
+    margin: 0% 10% 0% 10%;
+    color: black;
+    font-size: 8pt;
+}
+    
+    .modal-content {
+    width: 60%;
+    height: 65%;
+    background-color: white; 
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    
+}
+    .judul {
+        font-weight: 1%;
+        font-size: 15pt;
+        padding: 5%;
+    }
+    
+     .gambarscene {
+        width: 85%;
+        height: 85%;
+        margin: -10% 1% 1% 1%;
+    }
+    
+    .buttonshow {
+    background-color: #194f6b;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+    padding: 2% 2%;
+    color: white;
+    margin: 1% auto 1% 20%;
+    display: inline-block;
+    position: absolute;
+    font-size: 8pt;
+    
+     transition: all 0.3s ease-out;
+}
+
+.buttonshow:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(.9);
+}
+
+.buttonshow:active {
+    filter: brightness(.8);
+}
+
+.buttonshow:focus {
+  outline: 0;
+}
+
+.reminder {
+    text-align: right;
+}
+    
+}
+/*======================================= pc =================================================*/
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 2000px){
+    
+    body {
+        width: 100%;
+    }
+    
+    .buttonrecord {
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 80px;
+  height: 80px;
+  border: 0;
+  border-radius: 50%;
+  padding: .7em 1em;
+  margin: 0 auto 1% 46%;
+  margin-top: 1em;
+  text-align: center;
+  color: #fff;
+  background: #194f6b;
+  box-shadow: 2px 5px 30px rgba(100, 100, 201, .4);
+  transition: all 0.3s ease-out;
+}
+.buttonrecord .fa {
+  font-size: 55px;
+  line-height: 70px;
+  margin: 0;
+  text-shadow: 1px 2px 2px #194f6b;
+}
+.buttonrecord:hover {
+  transform: scale(.92);
+}
+.buttonrecord:active {
+  filter: brightness(.8);
+}
+.buttonrecord:focus {
+  outline: 0;
+}
+    
+    .text-output {
+   
+    border: 1px solid white;
+    background-color: rgba(10, 10, 10, 0.05);
+    border-radius: 10%;
+    padding: 2% 0% 2% 2%;
+    margin: 0% 15% 0% 15%;
+    color: black;
+    font-size: 8pt;
+}
+    
+    .text-output {
+   
+    border: 1px solid white;
+    background-color: rgba(10, 10, 10, 0.05);
+    border-radius: 10%;
+     padding: 1% 1% 1% 1%;
+    margin: 0% 35% 0% 35%;
+    color: black;
+    font-size: 10pt;
+}
+    
+    .judul {
+        font-weight: 1%;
+        font-size: 20pt;
+        margin-top: 20px;
+    }
+    
+    .gambarscene {
+        width: 30%;
+        height: 30%;
+        margin-top: -1%;
+    }
+    
+    .modal-content {
+    width: 22%;
+    height: 42%;
+    background-color: white; 
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+    
+    .buttonshow {
+    background-color: #194f6b;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+    padding: 10px 10px;
+    color: white;
+    margin: 0 auto 1px 5%;
+    display: inline-block;
+    position: absolute;
+    
+     transition: all 0.3s ease-out;
+}
+
+.buttonshow:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(.9);
+}
+
+.buttonshow:active {
+    filter: brightness(.8);
+}
+
+.buttonshow:focus {
+  outline: 0;
+}
+
+.reminder {
+    text-align: right;
+}
+
+}
+
+/*=======================================diluar pc dan hp=================================================*/
+.lead {
+    margin: 1% 10% 30% 0%;
+}
+
+.pict {
+    width: 400px;
+    height: 400px;
+}
+
+footer {
+  font-size: 10%;
+  color: silver;
+  position: fixed;
+  bottom: 1%;
+  left: 1%;
+}
+
+footer a {
+  color: #f80;
+}
+
+header {
+  margin: 1%;
+  text-align: center;
+}
+
+
+h1 {
+  font-weight: 400;
+  font-size: 1%;
+}
+
+.sectionone {
+    margin: 0;
+    position: relative;
+   
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.3em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 10px;
+}
+.fa-github::before {
+    content: "\f09b";
+}
+
+
+.buttonhint {
+    background-color: #194f6b;
+    border: 0px solid white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.buttonhint:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.hintcontent {
+    text-align: left;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 3%;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+ display: inline-block;
+    
+    transition: all 0.3s ease-out;
+}
+
+.close:hover {
+    color: grey;
+    text-decoration: none;
+    transform: scale(.9);
+    transform: rotate(45deg);
+}
+
+.close:active {
+    filter: brightness(.8);
+}
+
+.close:focus {
+  outline: 0;
+}
