@@ -1,16 +1,16 @@
 {
   "name": "English Speech Practice: Airport ",
   "description": "Study Conversation in Airport",
-  "repository": "https://github.com/girliemac/web-speech-ai",
+  "repository": "https://github.com/zulfikaralirochman/webspeechnew",
   "keywords": ["ai", "api.ai", "bot", "w3c"],
   "env": {
     "APIAI_TOKEN": {
       "description": "API.ai Client access token",
-      "value": ""
+      "value": "ab8da8891bb14abd95a050079bc6bdb8"
     },
     "APIAI_SESSION_ID": {
       "description": "An arbitrary string",
-      "value": ""
+      "value": "350521464127"
     }
   },
   "image": "heroku/nodejs"
